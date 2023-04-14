@@ -4,6 +4,7 @@ import blog from './Image/blog.png'
 import clock from './Image/clock.png'
 import Ecommerce from './Image/Ecommerce.png'
 import hotstar from './Image/hotstar.png'
+import port from './Image/portfolio.png'
 
 function Projects() {
   return (
@@ -23,9 +24,9 @@ function Projects() {
         </div>
         
         <div className='card'>
-        <img className='cardimage' src={clock} alt=''/>
+        <img className='cardimage' src={port} alt=''/>
           <p className='projectname'> Portfolio </p>
-          <a className='projectlink' target='_blank' href='https://paresh09pat.github.io/digitalclock/'> Click to see live Demo </a>
+          <a className='projectlink' target='_blank' href='https://paresh-portfolio.netlify.app/'> Click to see live Demo </a>
         </div>
         
         <div className='card'>
